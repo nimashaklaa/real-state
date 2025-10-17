@@ -3,6 +3,7 @@ import HeroSection from './components/HeroSection.tsx';
 import AboutUs from './components/AboutUs.tsx';
 import ReasonProjects from './components/ReasonProjects.tsx';
 import Assets from './components/Assets.tsx';
+import Subscription from './components/subscription.tsx';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <AboutUs />
       <ReasonProjects />
       <Assets />
+      <Subscription />
     </div>
   );
 }
