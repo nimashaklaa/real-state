@@ -1,6 +1,6 @@
 export default function Subscription() {
   return (
-    <section className="relative flex flex-row items-center bg-gradient-to-r from-[#C1DEE8] to-[#FBD9B9] h-[457px] mx-8 rounded-[15px]">
+    <section className="relative flex flex-row items-center bg-gradient-to-r from-[#C1DEE8] to-[#FBD9B9] h-[457px] mx-[30px] rounded-[15px]">
       <div className="z-50 relative h-[457px] w-[779px] pl-[46px] flex flex-col justify-center">
         <div className="text-[50px] font-semibold leading-[1.2] mb-[24px]">
           Subscribe Our Newsletter

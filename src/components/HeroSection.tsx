@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="relative flex flex-row items-center bg-gradient-to-r from-[#C1DEE8] to-[#FBD9B9] h-[617px] mx-8 rounded-[15px]">
+    <section className="relative flex flex-row items-center bg-gradient-to-r from-[#C1DEE8] to-[#FBD9B9] h-[617px] mx-[30px] rounded-[15px]">
       <div className="z-50 relative w-[595px] pl-[46px]">
         <div className="text-base font-normal mb-[15px]">
           Welcome to Realstate

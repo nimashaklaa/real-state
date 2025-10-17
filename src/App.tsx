@@ -7,7 +7,7 @@ import Subscription from './components/subscription.tsx';
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#FFFFFF]">
+    <div className="min-h-screen bg-[#FFFFFF] ml-[30px]">
       <NavBar />
       <HeroSection />
       <AboutUs />

@@ -20,7 +20,7 @@ export default function ReasonProjects() {
     },
   ];
   return (
-    <div className="relative flex flex-col mx-8">
+    <div className="relative flex flex-col mx-[30px]">
       <div className="text-base font-normal leading-1.2 mb-4">
         Best Project of the Years
       </div>

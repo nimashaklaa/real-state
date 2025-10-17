@@ -14,7 +14,7 @@ export default function Assets() {
     },
   ];
   return (
-    <div className="relative flex flex-col mt-[90px] mx-8 mb-[132px] items-center">
+    <div className="relative flex flex-col mt-[90px] mx-[30px] mb-[132px] items-center">
       <div className="font-semibold text-[50px] mb-[45px] w-[785px] leading-1.2 text-center">
         We are a global, boutique real estate brokerage
       </div>
@@ -48,7 +48,7 @@ export default function Assets() {
             ))}
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="flex-1 flex justify-end mr-[98px]">
           <img
             src={'img_11.png'}
             alt="conference"

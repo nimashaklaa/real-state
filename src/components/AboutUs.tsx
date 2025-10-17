@@ -24,7 +24,7 @@ export default function AboutUs() {
   ];
 
   return (
-    <div className="relative flex flex-col mt-[90px] mx-8 mb-[132px] items-center">
+    <div className="relative flex flex-col mt-[90px] mx-[30px] mb-[132px] items-center">
       <div className="text-base font-normal">Three steps. Three minutes</div>
       <div className="font-semibold text-[50px] mb-[45px]">
         Everything should be this easy.
