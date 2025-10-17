@@ -8,12 +8,12 @@ export default function NavBar() {
   ];
 
   return (
-    <nav className="relative h-[90px] mt-[34px] mx-8 flex items-center justify-between px-8 py-2 bg-[#FAFAFA] text-gray-800 rounded-[70px] mb-6">
+    <nav className="relative h-[90px] mt-[34px] mx-8 flex items-center justify-between px-8 py-2 bg-[#FAFAFA] text-gray-800 text-base rounded-[70px] mb-6">
       <div className="flex items-center">
         <img src={'img_6.png'} alt="logo" className="w-[93.89px] h-[27.5px]" />
       </div>
 
-      <div className="flex items-center gap-6 px-4 py-2 bg-[#FFFFFF] text-gray-800 rounded-[40px] h-[60px]">
+      <div className="flex items-center gap-[35px] px-4 py-2 bg-[#FFFFFF] text-gray-800 rounded-[40px] h-[60px]">
         {navItems.map((item, index) => (
           <a
             key={index}
@@ -27,7 +27,7 @@ export default function NavBar() {
       </div>
       <div className="text-[#1F1F1F] font-medium">Other services</div>
       <div className="flex items-center">
-        <div className="flex items-center rounded-[40px] h-[60px] w-[158px] border-[1px] py-[15px] px-[35px]">
+        <div className="flex items-center rounded-[40px] h-[60px] w-[160px] border-[1px] py-[15px] px-[35px]">
           Contact us
         </div>
       </div>

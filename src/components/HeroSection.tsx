@@ -1,7 +1,7 @@
 export default function HeroSection() {
   return (
     <section className="relative flex flex-row items-center overflow-hidden bg-gradient-to-r from-[#C1DEE8] to-[#FBD9B9] h-[617px] mx-8 rounded-[15px]">
-      <div className="z-50 relative w-1/2 pl-[46px]">
+      <div className="z-50 relative w-[595px] pl-[46px]">
         <div className="text-base font-normal mb-[15px]">
           Welcome to Realstate
         </div>
@@ -23,12 +23,8 @@ export default function HeroSection() {
           </button>
         </div>
       </div>
-      <div className="w-1/2 z-50">
-        <img
-          src={'img.png'}
-          alt="3d house"
-          className="h-[667px] w-[785px] z-50"
-        />
+      <div className="z-50 ml-[625px]">
+        <img src={'img.png'} alt="3d house" className="h-[667px] w-[785px]" />
       </div>
       <img
         src="/hero_section.png"
