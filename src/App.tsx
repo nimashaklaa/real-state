@@ -2,6 +2,7 @@ import NavBar from './components/NavBar.tsx';
 import HeroSection from './components/HeroSection.tsx';
 import AboutUs from './components/AboutUs.tsx';
 import ReasonProjects from './components/ReasonProjects.tsx';
+import Assets from './components/Assets.tsx';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <AboutUs />
       <ReasonProjects />
+      <Assets />
     </div>
   );
 }
