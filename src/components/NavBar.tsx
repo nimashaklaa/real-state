@@ -8,7 +8,7 @@ export default function NavBar() {
   ];
 
   return (
-    <nav className="absolute h-[90px] top-[34px] left-[30px] right-[30px] flex items-center justify-between px-8 py-2 bg-[#FAFAFA] text-gray-800 rounded-[70px]">
+    <nav className="relative h-[90px] mt-[34px] mx-8 flex items-center justify-between px-8 py-2 bg-[#FAFAFA] text-gray-800 rounded-[70px] mb-6">
       <div className="flex items-center">
         <img src={'img_6.png'} alt="logo" className="w-[93.89px] h-[27.5px]" />
       </div>

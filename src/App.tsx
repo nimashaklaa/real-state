@@ -6,11 +6,6 @@ function App() {
     <div className="min-h-screen bg-[#FFFFFF]">
       <NavBar />
       <HeroSection />
-      <div className="container mx-auto px-4 py-8">
-        <div className="max-w-4xl mx-auto">
-          <header className="text-center mb-12"></header>
-        </div>
-      </div>
     </div>
   );
 }

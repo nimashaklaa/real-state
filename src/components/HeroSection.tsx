@@ -1,7 +1,40 @@
 export default function HeroSection() {
   return (
-    <section className="relative flex items-center overflow-hidden h-[617px] mt-[150px] mx-8">
-      <div className="absolute inset-0 bg-gradient-to-r from-[#C1DEE8] to-[#FBD9B9] rounded-[15px]"></div>
+    <section className="relative flex flex-row items-center overflow-hidden bg-gradient-to-r from-[#C1DEE8] to-[#FBD9B9] h-[617px] mx-8 rounded-[15px]">
+      <div className="z-50 relative w-1/2 pl-[46px]">
+        <div className="text-base font-normal mb-[15px]">
+          Welcome to Realstate
+        </div>
+        <div className="text-[67px] font-semibold leading-[1.2] mb-[24px]">
+          Manage Your Property
+        </div>
+        <div className="text-base font-normal mb-[24px]">
+          Your will have everything nearby supermarket, buses , station, the
+          carmen neighborhood, etc
+        </div>
+        <div className="relative">
+          <input
+            type="text"
+            placeholder="Enter your email"
+            className="text-black h-[60px] w-[348px] rounded-[40px] pl-[24px] py-[18px]"
+          />
+          <button className="absolute right-32 bg-black h-[60px] w-[147px] rounded-[40px]  text-white font-semibold">
+            Get a Quate
+          </button>
+        </div>
+      </div>
+      <div className="w-1/2 z-50">
+        <img
+          src={'img.png'}
+          alt="3d house"
+          className="h-[667px] w-[785px] z-50"
+        />
+      </div>
+      <img
+        src="/hero_section.png"
+        alt="Hero Section"
+        className="absolute inset-0 w-full h-full object-cover opacity-50"
+      />
     </section>
   );
 }
