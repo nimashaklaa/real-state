@@ -18,7 +18,7 @@ export default function HeroSection() {
             placeholder="Enter your email"
             className="text-black h-[60px] w-[348px] rounded-[40px] pl-[24px] py-[18px]"
           />
-          <button className="absolute right-32 bg-black h-[60px] w-[147px] rounded-[40px]  text-white font-semibold">
+          <button className="absolute left-[291px] bg-black h-[60px] w-[147px] rounded-[40px]  text-white font-semibold">
             Get a Quate
           </button>
         </div>
