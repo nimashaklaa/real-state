@@ -23,8 +23,8 @@ export default function HeroSection() {
           </button>
         </div>
       </div>
-      <div className="z-50 ml-[625px]">
-        <img src={'img.png'} alt="3d house" className="h-[667px] w-[785px]" />
+      <div className="z-50">
+        <img src={'img.png'} alt="3d house" className="h-[667px]" />
       </div>
       <img
         src="/hero_section.png"
