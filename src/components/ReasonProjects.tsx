@@ -1,3 +1,4 @@
+// GitHub Actions Test - Vercel Deployment
 export default function ReasonProjects() {
   const projects = [
     {
